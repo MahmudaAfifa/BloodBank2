@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+
+<head>
+    
+      <div class="jumbotron" style="margin-bottom: 0px; text-align: center; background: white; margin-top: 80px;">
+
+        <!-- <p class="lead text-center">Welcome To UAP Blood Bank 
+          </p> -->
+        <h1>Welcome To UAP Blood Bank</h1>
+        
+        
+      </div>
+      
+</head>
+
+
+<body>
+  {% include "blood/navbar.html" %}
+<br>
+<section id="section-jumbotron" style="margin-bottom: 0px;" class="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center xyz">
+    <div class="container text-center">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+     
+      
+      <br><br><br><br>
+      
+    </div>  
+  </section>
+
+  <style>
+    .xyz{
+      background-image: url('{% static "image/home2.jpg" %}');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  </style>
+  
+  {% include "blood/footer.html" %}
+
+
+</body>
+
+</html>
